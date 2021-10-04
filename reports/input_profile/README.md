@@ -1,0 +1,1 @@
+The output of the pandas profiling report on input data should go here

@@ -1,0 +1,31 @@
+# List of folder to ignore
+.egg
+.whl
+.vscode
+.pytest_cache
+.pyc
+.coverage
+.tox
+.env
+
+build/
+outputs/
+reports/logs/
+diabetes_code.egg-info/
+dist/
+__pycache__/*
+**/__pycache__/*
+**/__pycache__
+
+**/**/__pycache__
+
+# These lines tell git to ignore files with these endings
+# You should NEVER rely on the gitignore file to avoid putting data online.
+# These exclusions are here as one more layer of protection but the right way is to never
+# put any sensitive data into the folders.
+*.ipynb
+*.csv
+*.txt
+
+# Don't ignore the requirements.txt - the one exception to excluding txt files
+!requirements.txt

@@ -1,0 +1,12 @@
+# local package
+-e .
+
+# required packages
+findspark
+flake8
+pandas-profiling>=1.4.1
+pyodbc>=4.0.30
+pyspark
+pytest>=6.1.1
+pytest-cov
+python-dotenv>=0.5.1
